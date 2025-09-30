@@ -21,6 +21,6 @@ export default class CadastrarClienteTitular extends Processo {
         let armazem = Armazem.InstanciaUnica
         armazem.Clientes.push(cliente)
 
-        console.log('Finalizando o cadastro do cliente...')
+        console.log(`Cadastro do cliente ${cliente.Nome} realizado com sucesso!`)
     }
 }

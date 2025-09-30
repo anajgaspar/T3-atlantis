@@ -18,10 +18,9 @@ export default class CadastrarDependente extends Processo {
             let dataNascimento = this.entrada.receberData('Qual a data de nascimento do novo cliente?')
             let dependente = new Cliente(nome, nomeSocial, dataNascimento)
             titular.addDependents(dependente)
-            console.log('Dependente cadastrado com sucesso!')
+            console.log(`Cadastro do cliente ${dependente.Nome} realizado com sucesso!`)
         } else {
             console.log('Titular não encontrado!')
         }
-        console.log('Finalizando o cadastro do dependente...')
     }
 }

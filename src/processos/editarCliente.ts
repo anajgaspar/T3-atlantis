@@ -23,6 +23,6 @@ export default class EditarCliente extends Processo {
         } else {
             console.log('Cliente não encontrado!')
         }
-        console.log(`Finalizando a edição de dados do cliente ${titular?.Nome}`)
+        console.log(`Dados do cliente ${titular?.Nome} atualizados com sucesso!`)
     }  
 }

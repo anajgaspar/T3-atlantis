@@ -1,4 +1,4 @@
-# Atlantis - Parte I 🐬
+# Atlantis - Parte III 🐬
 >✅ Concluído
 
 Aplicação web desenvolvida como parte da disciplina **Técnicas de Programação II**, voltada ao gerenciamento de **parques aquáticos**, **clubes** e **hotéis**, permitindo maior organização e controle dos serviços.
@@ -20,8 +20,8 @@ Aplicação web desenvolvida como parte da disciplina **Técnicas de Programaç�
 ### 1. Em um terminal, clone o repositório:
 
 ```bash
- git clone https://github.com/anajgaspar/T1-atlantis.git
- cd T1-atlantis
+ git clone https://github.com/anajgaspar/T3-atlantis.git
+ cd T3-atlantis
   ```
   
 ### 2. Instale as dependências e compile o projeto:
@@ -34,5 +34,5 @@ Aplicação web desenvolvida como parte da disciplina **Técnicas de Programaç�
 ### 3. Em seguida, rode o comando para iniciar a aplicação:
 
 ```bash
- node ./out/app/main.js
+ node out/app.js
 ```

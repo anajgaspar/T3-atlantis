@@ -21,7 +21,7 @@ export default class ExcluirCliente extends Processo {
                 if (indice > -1) {
                     Armazem.InstanciaUnica.Clientes.splice(indice, 1);
                 }
-                console.log(`Titular ${cliente.Nome} removido com sucesso!`);
+                console.log(`Cliente ${cliente.Nome} removido com sucesso!`);
             }
         } else {
             console.log("Cliente não encontrado.")
